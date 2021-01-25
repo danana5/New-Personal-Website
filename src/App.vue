@@ -35,10 +35,7 @@
                 </v-icon>
               </v-btn>
             
-            </v-row>
-            <v-row justify="center" class="mx-4 light-green--text text--accent-3">
-              {{ new Date().getFullYear() }}-Daniel Grace
-            </v-row>           
+            </v-row>         
           </v-card-text>
         </v-card>
       </v-footer>
