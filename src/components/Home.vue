@@ -17,7 +17,7 @@
         <v-img src="./assets/compressed.jpg"></v-img>
         </v-avatar>
         <h1 class="display-1 font-weight-thin mb-2 purple--text text--darken-1">Daniel Grace</h1>
-        <h4 class="subheading mb-4 white--text">Computer Science Student</h4>
+        <h4 class="subheading mb-2 white--text">Computer Science Student</h4>
         <v-btn
         class="mx-2"
         outlined
