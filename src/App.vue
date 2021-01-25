@@ -34,7 +34,6 @@
                   {{ item.icon }}
                 </v-icon>
               </v-btn>
-            
             </v-row>         
           </v-card-text>
         </v-card>
