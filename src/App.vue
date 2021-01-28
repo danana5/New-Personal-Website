@@ -1,35 +1,37 @@
 <template>
   <v-app>
-    <b-navbar 
-    toggleable="lg"
-    type="light"
-    class="nav"
-    >
-      <b-navbar-brand to="/">Daniel Grace</b-navbar-brand>
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-item to="/about">About Me</b-nav-item>
-          <b-nav-item to="/projects">Projects</b-nav-item>
-          <b-nav-item to="/contact">Contact Me</b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-    <v-img src="./assets/compressed.jpg" aspect-ratio=3>
-      <v-main>
-        <router-view/>
-      </v-main>
-    </v-img>
-  <v-footer
+      <b-navbar 
+      toggleable="lg"
+      type="dark"
+      class="nav"
+      app
+      >
+        <b-navbar-brand to="/">Daniel Grace</b-navbar-brand>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <b-nav-item to="/about">About Me</b-nav-item>
+            <b-nav-item to="/projects">Projects</b-nav-item>
+            <b-nav-item to="/contact">Contact Me</b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+      <v-content> 
+         <transition name="fade" mode="in-out">
+          <router-view/> 
+         </transition>       
+      </v-content>
+      <v-footer
         padless
         width="100%"
         app
+        fixed
       >
         <v-card
           flat
           tile
           width="100%"
-          class="cyan darken-3 text-center mx-auto"
+          class="light-green accent-3 text-center mx-auto"
         >
           <v-card-text>
             <v-row justify="center">
@@ -40,7 +42,7 @@
               outlined
               target="_blank"
               icon
-              class="mx-4 light-green--text text--accent-3"
+              class="mx-4 white--text"
               >
                 <v-icon size="25px">
                   {{ icon.icon }}
@@ -69,6 +71,9 @@ export default {
 </script>
 <style>
 .nav{
-  background-color: limegreen;
+  background-color: #76FF03;
+}
+#app .nav-item a{
+  color:white;
 }
 </style>
