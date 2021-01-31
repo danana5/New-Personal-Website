@@ -2,8 +2,8 @@
     <v-container fill-height>
           <v-sheet
             class="mx-auto"
-            rounded
-            color="white"
+            tile
+            color="#a38c00"
             max-width="600px"
             >
                 <v-row
@@ -17,13 +17,13 @@
                         >
                         <v-img src="../assets/compressed.jpg"></v-img>
                         </v-avatar>
-                        <h1 class="display-1 font-weight-thin mb-2 light-green--text text--accent-3">Daniel Grace</h1>
-                        <h4 class="subheading mb-2 light-green--text text--accent-3">Computer Science Student</h4>
+                        <h1 class="display-1 font-weight-thin">Daniel Grace</h1>
+                        <h4 class="subheading purple--text text--lighten-2">Computer Science Student</h4>
                         <v-btn
                         class="mx-2"
                         outlined
                         rounded
-                        color="light-green accent-3"
+                        color="white"
                         >
                         About Me
                         </v-btn>
@@ -31,7 +31,7 @@
                         class="mx-2"
                         outlined
                         rounded
-                        color="light-green accent-3"
+                        color="white"
                         >
                         Projects
                         </v-btn>
@@ -39,7 +39,7 @@
                         class="mx-2"
                         outlined
                         rounded
-                        color="light-green accent-3"
+                        color="white"
                         >
                         Contact Me
                         </v-btn>
@@ -48,7 +48,7 @@
                         outlined
                         rounded
                         href="https://danana5.github.io/"
-                        color="light-green accent-3"
+                        color="white"
                         >
                         Old Website
                         </v-btn>
