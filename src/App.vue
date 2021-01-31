@@ -18,40 +18,15 @@
       </b-navbar>
       <v-content> 
          <transition name="fade" mode="in-out">
-          <router-view/> 
+          <v-img
+          aspect-ratio="8"
+          style="height:100%"
+          src="./assets/background.jpg"
+          >
+            <router-view/>
+          </v-img>
          </transition>       
       </v-content>
-      <v-footer
-        padless
-        width="100%"
-        app
-        fixed
-      >
-        <v-card
-          flat
-          tile
-          width="100%"
-          class="light-green accent-3 text-center mx-auto"
-        >
-          <v-card-text>
-            <v-row justify="center">
-              <v-btn
-              v-for="icon in icons"
-              :key="icon"
-              :href="icon.to"
-              outlined
-              target="_blank"
-              icon
-              class="mx-4 white--text"
-              >
-                <v-icon size="25px">
-                  {{ icon.icon }}
-                </v-icon>
-              </v-btn>
-            </v-row>         
-          </v-card-text>
-        </v-card>
-      </v-footer>
   </v-app>
 </template>
 
@@ -65,15 +40,18 @@ export default {
       {icon: 'mdi-linkedin', to: "https://www.linkedin.com/in/daniel-grace-892963194/"},
       {icon: 'mdi-instagram', to: "https://www.instagram.com/danana_5/"},
       {icon: 'mdi-github', to: "https://github.com/danana5"}
-    ],
+    ]
   }),
 };
 </script>
 <style>
 .nav{
-  background-color: #76FF03;
+  background-color: #187789;
 }
 #app .nav-item a{
-  color:white;
+  color:#10c020;
+}
+#app .navbar-brand {
+  color:#10c020;
 }
 </style>
