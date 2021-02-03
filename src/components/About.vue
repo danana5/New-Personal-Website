@@ -12,11 +12,14 @@
               Porter Robinson and Brockhampton. Film-wise, I love Christopher Nolan and nearly all of his films, I like Tarantino also and I'm a huge fan of Denis Villeneuve.
           </div>
           <div class="mt-8" width="100">
-          <v-carousel>
+          <v-carousel
+          cycle
+          interval=5000
+          >
             <v-carousel-item
-              v-for="(item,i) in items"
-              :key="i"
-              :src="logo(item.src)"
+            v-for="(item,i) in items"
+            :key="i"
+            :src="logo(item.src)"
             ></v-carousel-item>
           </v-carousel>
         </div>
