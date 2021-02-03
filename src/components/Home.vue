@@ -15,12 +15,15 @@
                     <h4 class="subheading">Computer Science Student</h4>
                 </v-col>
                 </v-row>
-            </v-parallax>
+            </v-parallax>          
         <v-flex id="About">
             <About/>
         </v-flex>
-        <v-flex>
+        <v-flex id="Projects">
             <Projects/>
+        </v-flex>
+        <v-flex id="Contact">
+            <Contact/>
         </v-flex>
     </div>
 
@@ -29,12 +32,14 @@
 <script>
 import NavBar from "./NavBar"
 import About from "./About"
+import Contact from "./Contact"
 import Projects from "./Projects"
 export default {
     components:{
         About,
         NavBar,
-        Projects
+        Projects,
+        Contact
     }
 }
 </script>
