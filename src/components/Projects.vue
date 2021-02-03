@@ -159,7 +159,7 @@ export default {
             }
           ],
           description:
-            "I designed and developed the DIF Dashboard during the January break of 2021 for Dublin Indoor Football in order to help the company realise their goal of becoming paperless by 2022. The app is written in Vue.js using the Vuetify framework. The app uses Firebase's scalable NoSQL cloud database, Cloud Firestore, to store and sync data and uses Firebase Authentication for user authentication. During my time developing the DIF Dashboard I learned how to use Vue.js and gained a further understanding of Node.js.",
+            "As a part of my Software Engineering module in my 3rd year of college, we were tasked to write a single page web app which queries the GitHub REST API and then visualises the data which is recieved on relevant graphs etc. The program is written in React.js using Node Packet Manager.",
           tech: [
             {
               name: "React.js",
