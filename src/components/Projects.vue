@@ -6,7 +6,7 @@
         </div>
         <v-divider/>
         <v-layout wrap>
-          <v-template v-for="(app, i) in apps" :key="i">
+          <div v-for="(app, i) in apps" :key="i">
             <v-card flat color="transparent" max-width="350px">
               <v-card-title>
                 <v-layout>
@@ -58,7 +58,7 @@
                 </div>
               </v-card-text>
             </v-card>
-          </v-template>
+          </div>
         </v-layout>
     </v-container>
   </div>
@@ -92,7 +92,7 @@ export default {
         },
         {
           name: "DIF Dashboard",
-          price: "Contracted",
+          price: "Free-Lance",
           logo: "dif.png",
           platforms: [
             {
@@ -175,7 +175,7 @@ export default {
           code: "https://github.com/danana5/DIF-Dashboard"
         },
         {
-          name: "IBM Easy Annotator",
+          name: "IBM: Annotator",
           price: "College Assignment",
           logo: "ibm.png",
           platforms: [
@@ -185,7 +185,7 @@ export default {
             }
           ],
           description:
-            "I designed and developed the DIF Dashboard during the January break of 2021 for Dublin Indoor Football in order to help the company realise their goal of becoming paperless by 2022. The app is written in Vue.js using the Vuetify framework. The app uses Firebase's scalable NoSQL cloud database, Cloud Firestore, to store and sync data and uses Firebase Authentication for user authentication. During my time developing the DIF Dashboard I learned how to use Vue.js and gained a further understanding of Node.js.",
+            "During my Software Engineering Project module in my 2nd year of college, My group and I were given this project. The project was to develop a software that would enable surgeons to highlight regions of interest during surgery to identify cancerous cells. Our part of the project was to design and build the UI and the annotation section of the project. The entire project was written in JavaScript and uses several open source packages. ",
           tech: [
             {
               name: "React.js",
