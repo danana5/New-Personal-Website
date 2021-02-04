@@ -1,14 +1,18 @@
 <template>
   <v-app>
     <transition name="fade" mode="out-in">         
-      <router-view/>
+      <Home/>
     </transition>       
   </v-app>
 </template>
 
 <script>
+import Home from "./components/Home"
 export default {
   name: 'App',
+  components:{
+    Home,
+  },
   data: () => ({
     
   }),
