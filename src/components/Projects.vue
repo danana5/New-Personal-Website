@@ -155,7 +155,7 @@ export default {
           platforms: [
             {
               icon: "mdi-web",
-              link: "https://dif-dashboard.vercel.app/#/"
+              link: ""
             }
           ],
           description:
