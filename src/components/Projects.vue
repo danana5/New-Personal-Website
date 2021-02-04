@@ -172,7 +172,7 @@ export default {
               link: ""
             }
           ],
-          code: "https://github.com/danana5/DIF-Dashboard"
+          code: "https://github.com/danana5/github-visualiser"
         },
         {
           name: "IBM: Annotator",
