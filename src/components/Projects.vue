@@ -71,7 +71,7 @@ export default {
         apps: [
           {
           name: "CEQ Website",
-          price: "Free-Lance",
+          price: "Freelance",
           logo: "ceq.gif",
           platforms: [
             {
@@ -92,7 +92,7 @@ export default {
         },
         {
           name: "DIF Dashboard",
-          price: "Free-Lance",
+          price: "Freelance",
           logo: "dif.png",
           platforms: [
             {
