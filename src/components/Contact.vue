@@ -50,7 +50,7 @@ export default {
         {
           name: "Facebook",
           value: "Daniel Grace",
-          link: "https://www.facebook.com/uzirthapa",
+          link: "https://www.facebook.com/dananananananananananananana/",
           icon: "mdi-facebook"
         },
         {
