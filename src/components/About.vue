@@ -7,8 +7,8 @@
       <v-divider />
       <v-card flat max-width="900" class="mx-auto" color="transparent">
         <div class="body-1 blue-grey--text text--darken-1">
-          Hello! I am Dan, I am a 21 year old lad from Swords in fourth year
-          Computer Science at Trinity College Dublin. I've learned so much and I
+          Hello! I am Dan, I am a 22 year old lad from Swords in fith year
+          Masters Computer Science at Trinity College Dublin. I've learned so much and I
           have gained many unique experiences but I've also been fortunate
           enough to meet many great people and characters whom I am lucky to
           call friends.<br /><br />I am a front-end developer but with a strong
